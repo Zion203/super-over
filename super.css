@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png');
+  background-size: cover;
+}
+#lg {
+  width: 110px;
+  height: 50px;
+  margin-left: 715px;
+}
+#div2 {
+  height: 350px;
+  width: 400px;
+  display: inline-block;
+
+  position: relative;
+  margin-left: 200px;
+  margin-top: 125px;
+  border-radius: 20px;
+  background-color: rgb(21, 173, 15);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#div1 {
+  height: 350px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 270px;
+  position: relative;
+  background-color: rgb(12, 90, 180);
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.con {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: white;
+}
+.round {
+  display: inline-block;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+}
+.di {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.score {
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.div {
+  text-align: center;
+}
+#button1 {
+  height: 100px;
+  width: 100px;
+  margin-left: 650px;
+  margin-top: 50px;
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png');
+  background-size: cover;
+  border-radius: 30px;
+}
+input {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  /* margin-bottom: 20px; */
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png');
+  background-size: cover;
+  border-radius: 30px;
+}
+#but {
+ 
+  /* margin-left: 200px;
+  height: 150px;
+  width: 400px; */
+}
+#button2 {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  /* margin-top: 50px; */
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png');
+  background-size: cover;
+  border-radius: 30px;
+}
