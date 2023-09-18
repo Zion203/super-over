@@ -14,28 +14,34 @@ var wik = 0
 var count1 = 0
 var wik1 = 0
 var m = 0
+var runs1 = []
 function score() {
     m=Math.floor(Math.random()*7)
-    round[j].textContent=scores[m]
-    runs.push(scores[m])
-    j++
-    if (j<=6){
-        ind.push(runs[j-1]) 
-              
+    console.log(m)
+    round[j].innerText=scores[m]
+    if(j<6){
+        ind.push(scores[m])
     }else{
-        pak.push(runs[j-1])     
+        pak.push(scores[m])
     }
+    j++
     if (j<=6){
         if (typeof ind[j-1] =="number"){
             count+=ind[j-1]
         }else{
             wik += 1
+            if (wik==2){
+                j=6
+            }           
         }
     }else{
         if (typeof pak[j-7] =="number"){
             count1+=pak[j-7]
         }else{
             wik1 +=1
+            if(wik1==2){
+                j=12
+            }
         }
     }
     if (j==12){
